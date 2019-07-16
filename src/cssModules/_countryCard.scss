@@ -1,0 +1,13 @@
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.country-card {
+	max-width: 200px;
+	img {
+		max-width: 100%;
+	}
+}

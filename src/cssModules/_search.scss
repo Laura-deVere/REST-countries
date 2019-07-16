@@ -1,0 +1,14 @@
+.search-box {
+	display: flex;
+	flex-direction: column;
+	input {
+		width: 90%;
+	    height: 2em;
+    	padding: .5em;
+    	font-size: 1.2em;
+		border: 1px solid #ccc;
+		-webkit-box-shadow: 4px 4px 22px -2px rgba(128,128,128,1);
+		-moz-box-shadow: 4px 4px 22px -2px rgba(128,128,128,1);
+		box-shadow: 4px 4px 22px -2px rgba(128,128,128,1);
+	}
+}
