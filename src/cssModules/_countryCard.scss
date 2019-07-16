@@ -6,8 +6,24 @@
 }
 
 .country-card {
-	max-width: 200px;
+	max-width: 260px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 3em;
 	img {
 		max-width: 100%;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.country-card-info {
+		padding: 2em;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 116px;
+		h2 {
+			margin: 0 0 1em 0;
+			font-size: 1.1em;
+		}
 	}
 }

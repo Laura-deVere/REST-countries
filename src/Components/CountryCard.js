@@ -8,11 +8,13 @@ const CountryCard = ({countries}) => {
 					console.log(country);
 					return (
 						<div className="country-card">
-							<img src={country.flag} />
-							<h2>{country.name}</h2>
-							<span>Population: {country.population}</span>
-							<span>Region: {country.region}</span>
-							<span>Capital: {country.capital}</span>
+							<img src={country.flag} alt="country flag" />
+							<div className="country-card-info">
+								<h2>{country.name}</h2>
+								<span>Population: {country.population}</span>
+								<span>Region: {country.region}</span>
+								<span>Capital: {country.capital}</span>
+							</div>
 						</div>
 					)
 				})

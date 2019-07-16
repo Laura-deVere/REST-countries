@@ -11,11 +11,15 @@ class App extends Component {
   }
 
   componentDidMount() {
+    // makes a GET request to the API endpoint
     fetch('https://restcountries.eu/rest/v2/all')
+    // parse the response/data
     .then(res => res.json())
+    // sets data as state 
     .then((data) => {
       this.setState({ countries: data })
     })
+    // logs any errors
     .catch(console.log);
   }
   render() {
